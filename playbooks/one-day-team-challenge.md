@@ -11,7 +11,7 @@ A workflow for delivering a working product in one hack day with a team of 8–1
 | Challenge source | Partner organization |
 | Development mode | AI-assisted; each team builds with AI coding tools |
 | Ideation input | Discover output from the [FaithTech 4D cycle](https://workbook.faithtech.com/) (Discover, Discern, Develop, Demonstrate) |
-| Build iteration | FaithTech 3 R's cycle (Request, Render, Review) within each team |
+| Build iteration | FaithTech co-creation cycle (Request, Receive, Review, Render, Rejoice) within each team |
 
 ## Roles and working agreement
 
@@ -116,7 +116,7 @@ Teams build their capabilities with AI assistance and open pull requests against
 
 ### Step 12. Iterate until complete
 
-Teams repeat the build–review–merge loop until the product is complete or the day ends. Within each team, iteration follows the FaithTech 3 R's cycle — Request, Render, Review: request a change from the AI coding tool, render the result, and review the output before it enters a pull request. Work that remains open at the end of the day moves into the follow-on development cycle recorded in the working agreement, where it continues to iterate with the partner organization.
+Teams repeat the build–review–merge loop until the product is complete or the day ends. Within each team, iteration follows the FaithTech co-creation cycle — five R's: Request, Receive, Review, Render, Rejoice. Work that remains open at the end of the day moves into the follow-on development cycle recorded in the working agreement, where it continues to iterate with the partner organization.
 
 ## Design notes
 

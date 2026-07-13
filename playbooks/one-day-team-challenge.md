@@ -12,6 +12,28 @@ A workflow for delivering a working product in one hack day with a team of 8–1
 | Development mode | AI-assisted; each team builds with AI coding tools |
 | Ideation input | Discover output from the [FaithTech 4D cycle](https://workbook.faithtech.com/) (Discover, Discern, Develop, Demonstrate) |
 
+## Roles and working agreement
+
+The hack day operates as a compressed product delivery cycle with three roles:
+
+| Role | Product analogue | Responsibility |
+| --- | --- | --- |
+| Partner organization | Customer | Supplies the challenge and domain context; receives the product and continues to iterate on it after the event |
+| Facilitator | Product owner | Sets product direction, assigns work, and decides what continues beyond the hack day |
+| Participants | Development team | Build the assigned capabilities with AI assistance |
+
+The facilitator carries three decisions on behalf of the partner organization:
+
+- Product direction — what the product does, resolved through the PRD (Phase 3)
+- Work assignment — who builds what, resolved through capability assignment (Step 7)
+- Continuation — which work completes within the hack day and which moves into a follow-on development cycle that iterates with the partner organization after the event
+
+A working agreement — the hacking agreement — shall record this role mapping and shall be understood by all three parties before the build starts. The agreement states:
+
+- The role mapping and the facilitator's decision authority
+- The scope the hack day is expected to deliver
+- The disposition of work after the event: which artifacts transfer to the partner organization and which move into the follow-on development cycle
+
 ## Workflow at a glance
 
 | Phase | Steps | Output |
@@ -93,7 +115,7 @@ Teams build their capabilities with AI assistance and open pull requests against
 
 ### Step 12. Iterate until complete
 
-Repeat the build–review–merge loop until the product is complete or the day ends.
+Repeat the build–review–merge loop until the product is complete or the day ends. Work that remains open at the end of the day moves into the follow-on development cycle recorded in the working agreement, where it continues to iterate with the partner organization.
 
 ## Design notes
 

@@ -43,3 +43,5 @@ All prose follows the register defined in the [Architecture Description Style Gu
 | capability | A slice of the product assigned to one team: a module, a page, the design system, or spec management |
 | FaithTech 4D cycle | Discover, Discern, Develop, Demonstrate — the framework whose Discover output feeds ideation |
 | PRD | Product requirements document |
+| working agreement | The agreement, understood by all parties before the build starts, that records the role mapping (partner organization as customer, facilitator as product owner, participants as development team), the facilitator's decision authority, the expected scope, and the disposition of work after the event |
+| follow-on development cycle | The development cycle that receives work leaving the hack day and iterates with the partner organization after the event |

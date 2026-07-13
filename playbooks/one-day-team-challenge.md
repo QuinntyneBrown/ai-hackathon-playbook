@@ -11,6 +11,7 @@ A workflow for delivering a working product in one hack day with a team of 8–1
 | Challenge source | Partner organization |
 | Development mode | AI-assisted; each team builds with AI coding tools |
 | Ideation input | Discover output from the [FaithTech 4D cycle](https://workbook.faithtech.com/) (Discover, Discern, Develop, Demonstrate) |
+| Build iteration | FaithTech 3 R's cycle (Request, Render, Review) within each team |
 
 ## Roles and working agreement
 
@@ -41,7 +42,7 @@ A working agreement — the hacking agreement — shall record this role mapping
 | 1. Foundation | 1 | Selected starter template |
 | 2. Discovery and ideation | 2–3 | Consolidated idea set |
 | 3. Definition | 4–5 | Low-fidelity PRD chunked into core capabilities |
-| 4. Repository and team setup | 6–10 | Central repository with protected main and per-team feature branches |
+| 4. Repository and team setup | 6–10 | Central repository with CI pipeline, protected main, and per-team feature branches |
 | 5. Build and integration | 11–12 | Working product on main |
 
 ## Phase 1 — Foundation
@@ -103,9 +104,9 @@ Each team creates its own feature branch for its capability.
 
 Add participants as collaborators so that each participant can push to their team's feature branch.
 
-### Step 10. Protect main
+### Step 10. Protect main and set up the CI pipeline
 
-Protect the main branch so that changes land only through reviewed pull requests.
+Protect the main branch so that changes land only through reviewed pull requests. At the same time, set up the CI pipeline so that every pull request is validated from the first merge onward. The facilitator performs both tasks as one setup activity.
 
 ## Phase 5 — Build and integration
 
@@ -115,10 +116,10 @@ Teams build their capabilities with AI assistance and open pull requests against
 
 ### Step 12. Iterate until complete
 
-Repeat the build–review–merge loop until the product is complete or the day ends. Work that remains open at the end of the day moves into the follow-on development cycle recorded in the working agreement, where it continues to iterate with the partner organization.
+Teams repeat the build–review–merge loop until the product is complete or the day ends. Within each team, iteration follows the FaithTech 3 R's cycle — Request, Render, Review: request a change from the AI coding tool, render the result, and review the output before it enters a pull request. Work that remains open at the end of the day moves into the follow-on development cycle recorded in the working agreement, where it continues to iterate with the partner organization.
 
 ## Design notes
 
 - Chunking the PRD by capability lets 8–10 participants work in parallel; AI assistance makes each small team productive enough to own a full capability within the day.
-- A protected main branch with pull request review keeps integration quality constant while many branches land in quick succession.
+- A protected main branch with pull request review and a CI pipeline keeps integration quality constant while many branches land in quick succession.
 - Low-fidelity artifacts — notepad brainstorms and a minimal PRD — match the one-day timebox; detail beyond what teams need to start building is deferred.

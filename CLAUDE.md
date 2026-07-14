@@ -40,7 +40,7 @@ All prose follows the register defined in the [Architecture Description Style Gu
 | --- | --- |
 | playbook | A repeatable, field-tested workflow captured in this repository |
 | partner organization | The external organization that supplies the challenge and domain context |
-| capability | A slice of the product assigned to one team: a module, a page, the design system, or spec management |
+| capability | A slice of the product assigned to one team: a module, a page, or the design system |
 | FaithTech 4D cycle | Discover, Discern, Develop, Demonstrate — the framework whose Discover output feeds ideation |
 | FaithTech co-creation cycle | Request, Receive, Review, Render, Rejoice — the five R's iteration loop each team runs during the build phase |
 | PRD | Product requirements document |

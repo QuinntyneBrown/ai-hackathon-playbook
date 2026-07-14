@@ -10,7 +10,7 @@ A workflow for a team of 3–4 developers, each driving one or more coding agent
 | Scope | One capability from a chunked PRD |
 | Duration | One hack day |
 | Development mode | AI-assisted; each developer drives one or more coding agents |
-| Prerequisite | A capability assigned to the team under the [One-day team challenge](one-day-team-challenge.md) workflow (Step 7) |
+| Prerequisite | A capability assigned to the team under the [One-day team challenge](one-day-team-challenge.md) workflow (Step 9) |
 
 This playbook zooms into a single capability. The parent workflow assigns each capability to a small team; this workflow governs how the developers inside that team divide the capability further, run their agents in parallel, and integrate the results.
 
@@ -20,6 +20,7 @@ This playbook zooms into a single capability. The parent workflow assigns each c
 | --- | --- |
 | slice | An independently buildable piece of a capability assigned to one developer and that developer's agents |
 | interface contract | The agreed boundary between two slices — the types, function signatures, API routes, or events they exchange |
+| cross-capability contract | A contract on a boundary between two capabilities, defined and owned outside the team under the [One-day team challenge](one-day-team-challenge.md) workflow (Step 6) and consumed unchanged by the team |
 | integration owner | The team member responsible for keeping the capability's branch coherent as slices merge |
 
 ## What shall be predetermined
@@ -53,6 +54,8 @@ Split the capability into 3–4 slices, one per developer, each independently bu
 
 For each boundary between slices, define the interface contract: the exact types, signatures, routes, or events crossing it. Record each contract precisely enough that an agent on either side can build against it without consulting the developer on the other side.
 
+Define only the contracts internal to the capability — the seams between slices. The capability's outward boundaries are the cross-capability contracts the team consumes unchanged from the parent workflow (One-day team challenge, Step 6); a slice that sits on such a boundary builds against the committed cross-capability contract rather than defining a new one.
+
 ### Step 3. Assign ownership
 
 Assign each slice, and every file or directory within it, to exactly one developer. No file shall be owned by two slices.
@@ -85,7 +88,7 @@ As slices land, the integration owner replaces the corresponding stubs with the 
 
 ### Step 9. Hand the capability up
 
-When the capability meets its definition of done, integrate it into the central repository through the parent workflow's review-and-merge loop (One-day team challenge, Step 11). Work still open at the end of the day moves into the follow-on development cycle recorded in the working agreement.
+When the capability meets its definition of done, integrate it into the central repository through the parent workflow's review-and-merge loop (One-day team challenge, Step 13). Work still open at the end of the day moves into the follow-on development cycle recorded in the working agreement.
 
 ## How the developers communicate
 

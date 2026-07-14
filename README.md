@@ -13,6 +13,7 @@ This repository captures learnings from facilitating hackathon challenges delive
 | [One-day team challenge](playbooks/one-day-team-challenge.md) | Team of 8–10 participants, challenge supplied by a partner organization, AI-assisted development | One hack day |
 | [Parallel agent-assisted build within one capability](playbooks/parallel-agent-build.md) | Team of 3–4 developers, each driving coding agents on one capability | One hack day |
 | [Three-by-three model](playbooks/three-by-three-model.md) | Team of 4–12 participants; three three-hour blocks with three goals each, adapted from the Thoughtworks 3×3×3 structure | One hack day (nine hours) |
+| [Cross-capability contract drafting prompt](playbooks/cross-capability-contract-prompt.md) | Facilitator turning per-capability specs into cross-capability contracts for parallel, independently mergeable capabilities | Definition phase, ahead of the build |
 
 ## Repository structure
 
